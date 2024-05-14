@@ -2,7 +2,7 @@
 The primary objective of this project is to construct a prototype self-balancing rover capable of autonomously traversing a maze, mapping its layout, and finding the shortest path from the start to the endpoint. 
 
 - The  navigation  of  the  maze  was conducted  using  computer  vision  with  a  D8M  camera  module,  and  ultrasonic  sensors  to  detect  and measure the placement of white LED strips which signify maze walls.
-- Further to this, determining the rover’s  position  within  the  maze  and  in  relation  to  the  white  LED  strips,  was  achieved  using  the MPU6050  inertial  measurement  unit,  capable  of  finding  the  Euler  angles  and  using  methods  of triangulation with beacons, and deadreckoning to determine displacement.
+- Determining the rover’s  position  within  the  maze  and  in  relation  to  the  white  LED  strips,  was  achieved  using  the MPU6050  inertial  measurement  unit,  capable  of  finding  the  Euler  angles  and  using  methods  of triangulation with beacons, and deadreckoning to determine displacement.
 - The term ‘beacon’ refers to three self-powered LEDs supplied by energy from solar panels.
 - Whilst moving and balancing on two wheels, the rover sends the coordinates of the path it has traversed and the surrounding maze walls in real-time to the server to build up the map of the maze and ultimately find the shortest path. 
 
